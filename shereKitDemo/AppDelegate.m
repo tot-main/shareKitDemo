@@ -9,11 +9,16 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "MySHKConfigurator.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	// SHK Configration
+	DefaultSHKConfigurator *configurator = [[MySHKConfigurator alloc] init];
+	[SHKConfiguration sharedInstanceWithConfigurator:configurator];
+	
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 	self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];

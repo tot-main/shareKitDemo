@@ -31,6 +31,7 @@
 		5511F19516CC73840087CF01 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5511F19416CC73840087CF01 /* Accounts.framework */; };
 		5511F19716CC738F0087CF01 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5511F19616CC738F0087CF01 /* libsqlite3.dylib */; };
 		5511F19916CC739E0087CF01 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5511F19816CC739E0087CF01 /* Social.framework */; };
+		5511F19C16CC76A30087CF01 /* MySHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5511F19B16CC76A30087CF01 /* MySHKConfigurator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +325,8 @@
 		5511F19416CC73840087CF01 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		5511F19616CC738F0087CF01 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		5511F19816CC739E0087CF01 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5511F19A16CC76A30087CF01 /* MySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySHKConfigurator.h; sourceTree = "<group>"; };
+		5511F19B16CC76A30087CF01 /* MySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySHKConfigurator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +402,8 @@
 				5511F10616CC6FDC0087CF01 /* ViewController.h */,
 				5511F10716CC6FDC0087CF01 /* ViewController.m */,
 				5511F10916CC6FDC0087CF01 /* ViewController.xib */,
+				5511F19A16CC76A30087CF01 /* MySHKConfigurator.h */,
+				5511F19B16CC76A30087CF01 /* MySHKConfigurator.m */,
 				5511F0F516CC6FDC0087CF01 /* Supporting Files */,
 			);
 			path = shereKitDemo;
@@ -786,6 +791,7 @@
 				5511F0FB16CC6FDC0087CF01 /* main.m in Sources */,
 				5511F0FF16CC6FDC0087CF01 /* AppDelegate.m in Sources */,
 				5511F10816CC6FDC0087CF01 /* ViewController.m in Sources */,
+				5511F19C16CC76A30087CF01 /* MySHKConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

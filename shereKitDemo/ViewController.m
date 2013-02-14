@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)callSNKButtonToucheUpinside:(id)sender
+{
+	SHKItem *item = [SHKItem text:@"これはテストです。"];
+    [[SHKActionSheet actionSheetForItem:item] showInView:[[UIApplication sharedApplication] keyWindow]];
+	
+}
+
 @end
